@@ -1,0 +1,22 @@
+.souscription-box {
+    border : 1px solid turquoise; 
+    max-width: 1920px; 
+    width: 950px; 
+}
+
+@media screen and (max-width:690px){
+    .souscription-box {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width:691px){
+    .souscription-box {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 299px){
+    .souscription-box{
+        min-width:288px; 
+    }
+}
